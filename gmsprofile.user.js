@@ -1,10 +1,10 @@
 	// ==UserScript==
 	// @name         gmodstore Checker
 	// @namespace    meharryp.xyz
-	// @version      1.1.3
-	// @description  View a scriptfodder users profile information on their steam profile page.
-	// @author       meharryp
-	// @downloadURL  https://raw.githubusercontent.com/meharryp/sfprofile/master/sfprofile.user.js
+	// @version      1.0.0
+	// @description  View a gmodstore user's information on their steam profile page.
+	// @author       nobody
+	// @downloadURL  https://raw.githubusercontent.com/Havila199/gmsprofile/master/gmsprofile.user.js
 	// @match        *://steamcommunity.com/id/*
 	// @match        *://steamcommunity.com/profiles/*
 	// @require      https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js

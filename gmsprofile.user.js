@@ -16,12 +16,12 @@
 	(function() {
 		'use strict';
 	
-		var apikey = ""; // ENTER YOUR API KEY HERE OR THE SCRIPT WONT WORK!!!
+		var apikey = ""; // ENTER YOUR GMODSTORE API KEY HERE OR THE SCRIPT WONT WORK!!! ONLY READ USER PERMISSIONS REQUIRED!!!
 		var bans = {};
 		var data = {};
 		
 		if (!apikey || apikey == ""){
-			alert("GMSProfile: You haven't set an API key! Edit the script file and add one to keep using this.");
+			alert("GMSProfile: You haven't set a Gmodstore API key! Edit the script file and add one to keep using this.");
 		}
 		$(".profile_leftcol").prepend(`
 			<div class="profile_customization" style="background-image: none;background: #d9534f;">

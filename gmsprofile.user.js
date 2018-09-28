@@ -79,8 +79,9 @@
                         console.log(bans);
                         if(bans.end == null){ var banend = "Permanent"} else{ var banend = bans.end};
                         if(bans.properties == "addon.create"){ var bantype = "Script Creation"};
-                        if(bans.properties == "everything"){ var bantype = "Everything"};
                         if(bans.properties == "forum.post"){ var bantype = "Forum Posts"};
+                        if(bans.properties == "everything"){ var bantype = "Everything"};
+                        if(bans.properties == "ban.appeal"){ var bantype = "Ban Appeals"};
 
                         var html2 = `
                          <div style="color:white;">
